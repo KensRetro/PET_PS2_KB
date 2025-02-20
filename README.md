@@ -1,6 +1,8 @@
 # PET_PS2_KB
 An adaptor to connect a PS2 keyboard to a to PET computer
 
+Uses a PIC16F18877 to do pretty much everything.
+
 How It Works:
  
 An interrupt-on-change routine (The PET sets a ROW to read) sets outputs (Columns) for the PET to read back as keypresses.  
@@ -14,3 +16,8 @@ Note: routines are optimized for speed, not space, this is to ensure the respons
 normal keyboard scan speed
 
 Currently supports GRAPHICS keyboard ONLY - tables would need updating for business style KB
+
+DISCLAIMER: All information is provided 'AS-IS" for informational purposesonly.
+I have tried to be as accurate as possible but that doesn't mean there are no mistakes. 
+Any errors or omissions etc. are your own responsibility.  
+There is no Warranty or guarantee of any kind.
