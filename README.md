@@ -49,7 +49,7 @@ normal keyboard scan speed
 
 Currently supports GRAPHICS keyboard ONLY - tables would need updating for business style KB
 
-DISCLAIMER: All information is provided 'AS-IS" for informational purposesonly.
+DISCLAIMER: All information is provided 'AS-IS" for informational purposes only.
 I have tried to be as accurate as possible but that doesn't mean there are no mistakes. 
 Any errors or omissions etc. are your own responsibility.  
 There is no Warranty or guarantee of any kind. See licence for details.
