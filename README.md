@@ -12,26 +12,27 @@ Currently, only the GRAPHIC keyboard is supported, but it would only take a bit 
 
 Special keys are as follows:
 
-PS2 Key - PET Key
-ESC       RUN/ASTOP
-Tilde     Left Arrow
-TAB       RVS
-SCRLOK    (Reboots keyboard interface)***
-END       Clear Screen (shift-home)
-Shift 6   Up Arrow
-ALT       Shift to Graphic on double function keys (1-9 etc.)**
-L/R CTRL  Hardware equivalnt of SHIFT keys*
+-- PS2 Key -> PET Key --
+* ESC      -> RUN/STOP
+* Tilde    -> Left Arrow
+* TAB      -> RVS
+* SCRLOK   -> (Reboots keyboard interface)***
+* END      -> Clear Screen (shift-home)
+* Shift 6  -> Up Arrow
+* ALT      -> Shift to Graphic on double function keys (1-9 etc.)**
+* L/R CTRL -> Hardware equivalnt of SHIFT keys*
+
 Non PET keys are generally No Function
 
-* The PS2 shift keys are  generally treated as a "Soft-Shift" and sent to the PET as needed when a second key is pressed.
-* If you need to press the SHIFT key alone on the PET use the CTRL key instead.
-* Limitations of the PS2 keyboard seem to block both SHIFT or CTRL being detected as pressed at the same time, so translating
-* this to the PET is not possible.  Other multi-key combinations may also nto work, but generally it's pretty good.
+*The PS2 shift keys are  generally treated as a "Soft-Shift" and sent to the PET as needed when a second key is pressed.
+If you need to press the SHIFT key alone on the PET use the CTRL key instead.
+Limitations of the PS2 keyboard seem to block both SHIFT or CTRL being detected as pressed at the same time, so translating
+this to the PET is not possible.  Other multi-key combinations may also not work, but generally it's pretty good.
 
 **Example: to get the graphic on the ! key you need to press SHIFT-ALT-1  (SHIFT-1 for ! and ALT for graphic)
 
-*** Once in a while (usually while pressing many keys at once) a key press or release is not detected, pressing the SCROLL-LOCK 
-*** key reboots the PIC and resets the keymap to no keys pressed, usually there's no effect to the PET
+***Once in a while (usually while pressing many keys at once) a key press or release is not detected, pressing the SCROLL-LOCK 
+key reboots the PIC and resets the keymap to no keys pressed, usually there's no effect to the PET
 
 
 How It Works:
